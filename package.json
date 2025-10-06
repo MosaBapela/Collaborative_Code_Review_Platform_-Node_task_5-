@@ -21,18 +21,27 @@
   },
   "homepage": "https://github.com/MosaBapela/Collaborative_Code_Review_Platform_-Node_task_5-#readme",
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/cors": "^2.8.19",
     "@types/dotenv": "^6.1.1",
-    "@types/express": "^5.0.3",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.6.2",
     "@types/pg": "^8.15.5",
+    "@types/ws": "^8.18.1",
     "node": "^24.9.0",
     "nodemon": "^3.1.10",
     "ts": "^0.0.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.1",
+    "ws": "^8.18.3"
   }
 }
