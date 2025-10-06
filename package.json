@@ -1,0 +1,38 @@
+{
+  "name": "collaborative_code_review_platform_-node_task_5-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon --exec ts-node src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosaBapela/Collaborative_Code_Review_Platform_-Node_task_5-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MosaBapela/Collaborative_Code_Review_Platform_-Node_task_5-/issues"
+  },
+  "homepage": "https://github.com/MosaBapela/Collaborative_Code_Review_Platform_-Node_task_5-#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.6.2",
+    "@types/pg": "^8.15.5",
+    "node": "^24.9.0",
+    "nodemon": "^3.1.10",
+    "ts": "^0.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3"
+  }
+}
