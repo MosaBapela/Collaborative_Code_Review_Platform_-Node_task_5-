@@ -1,3 +1,4 @@
+//Importing Request type from express to extend it for authenticated requests
 import { Request } from 'express';
 
 export type UserRole = 'submitter' | 'reviewer';
